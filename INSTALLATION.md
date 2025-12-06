@@ -1,7 +1,7 @@
 
 # Guía de Instalación y Uso - Proyecto Pokedex Vue
 
-Esta guía describe paso a paso cómo instalar, ejecutar y construir la aplicación Pokedex.
+Esta guía describe paso a paso cómo preparar el ambiente para instalar y ejecutar la aplicación Pokedex.
 
 ## Requisitos Previos
 
