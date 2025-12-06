@@ -1,5 +1,5 @@
 
-# Vue 3 + Vite
+# Proyecto PokeDex Vue 3 + Vite
 
 Esta plantilla ayuda a iniciarnos en el desarrollo con Vue 3 en Vite. La plantilla utiliza SFCs de Vue 3 `<script setup>`, consulta la [documentación de script setup](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) para aprender más.
 
