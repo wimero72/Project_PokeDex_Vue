@@ -70,4 +70,14 @@ label.active {
     font-size: 0.875rem;
     font-weight: 600;
 }
+
+@media (max-width: 640px) {
+    .label {
+        display: none;
+    }
+    
+    label {
+        padding: 0.35rem;
+    }
+}
 </style>

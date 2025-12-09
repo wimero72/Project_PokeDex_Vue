@@ -90,13 +90,17 @@ onMounted(() => {
     margin-bottom: 1.5rem;
     color: var(--text-primary);
     background: linear-gradient(135deg, var(--primary-color), #ec4899);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .search-container {
+    width: 100%;
     max-width: 500px;
     margin: 0 auto;
+    padding: 0 1rem;
+    box-sizing: border-box;
 }
 
 .search-input {
@@ -110,6 +114,7 @@ onMounted(() => {
     transition: all 0.3s;
     outline: none;
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    box-sizing: border-box;
 }
 
 .search-input:focus {

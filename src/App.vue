@@ -63,7 +63,11 @@ import ThemeToggle from './components/ThemeToggle.vue'
   font-size: 1.5rem;
   font-weight: 800;
   color: var(--text-primary);
-  display: none; /* Oculta en pantallas pequeñas si es necesario, o mostrar */
+  display: none; 
+}
+
+@media (min-width: 400px) {
+    .brand-text { display: block; }
 }
 
 @media (min-width: 640px) {
